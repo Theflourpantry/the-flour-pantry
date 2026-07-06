@@ -11,7 +11,7 @@ body{
 }
 
 header{
-    background:#5E7D2B;
+   background:#F8F4E8;
     color:white;
     display:flex;
     justify-content:space-between;
@@ -33,21 +33,32 @@ header{
 }
 
 .logo-text h1{
-    color:white;
-    font-size:30px;
+    font-family:"Times New Roman", Times, serif;
+    font-size:42px;
+    font-weight:700;
+    color:#5A3B20;
+    text-transform:uppercase;
+    letter-spacing:2px;
     margin:0;
+    line-height:1;
 }
 
 .logo-text p{
-    color:white;
-    margin-top:5px;
-    font-size:14px;
+    font-family:'Poppins', sans-serif;
+    font-size:15px;
+    font-weight:500;
+    color:#8A6A44;
+    text-transform:uppercase;
+    letter-spacing:4px;
+    margin-top:6px;
 }
 nav a{
-    color:white;
+    font-family:'Poppins', sans-serif;
+    font-size:17px;
+    font-weight:600;
+    color:#5A3B20;
     text-decoration:none;
-    margin-left:20px;
-    font-weight:bold;
+    margin-left:30px;
 }
 
 .hero{

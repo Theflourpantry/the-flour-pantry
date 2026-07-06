@@ -62,9 +62,8 @@ nav a{
 }
 
 .hero{
-    text-align:center;
-    padding:80px 20px;
-    background:#F3E7C9;
+    background:#FCF8F2;
+    padding:80px 8%;
 }
 
 .hero h2{

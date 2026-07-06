@@ -20,9 +20,28 @@ header{
     flex-wrap:wrap;
 }
 
+.logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
 .logo img{
     height:70px;
-    width:auto;
+    width:70px;
+    border-radius:50%;
+}
+
+.logo-text h1{
+    color:white;
+    font-size:30px;
+    margin:0;
+}
+
+.logo-text p{
+    color:white;
+    margin-top:5px;
+    font-size:14px;
 }
 nav a{
     color:white;

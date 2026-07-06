@@ -61,9 +61,11 @@ nav a{
     margin-left:30px;
 }
 
-.hero{
-    background:#FCF8F2;
-    padding:80px 8%;
+.hero-content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:60px;
 }
 
 .hero h2{

@@ -20,14 +20,10 @@ header{
     flex-wrap:wrap;
 }
 
-.logo h1{
-    font-size:30px;
+.logo img{
+    height:70px;
+    width:auto;
 }
-
-.logo p{
-    font-size:14px;
-}
-
 nav a{
     color:white;
     text-decoration:none;

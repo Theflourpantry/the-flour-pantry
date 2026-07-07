@@ -97,7 +97,21 @@ nav a{
     grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
     gap:25px;
 }
-
+.products h2{
+    text-align:center;
+    font-family:"Times New Roman", Times, serif;
+    font-size:42px;
+    color:#5A3B20;
+    text-transform:uppercase;
+    margin-bottom:10px;
+}
+.product-subtitle{
+    text-align:center;
+    font-family:'Poppins', sans-serif;
+    font-size:18px;
+    color:#8A6A44;
+    margin-bottom:45px;
+}
 .card{
     background:white;
     padding:25px;

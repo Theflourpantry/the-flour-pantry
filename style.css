@@ -139,7 +139,10 @@ margin:10px 0;
 }
 
 .hero h2{
-font-size:30px;
-}
-
+    font-family:"Times New Roman", Times, serif;
+    font-size:52px;
+    font-weight:700;
+    color:#5A3B20;
+    line-height:1.2;
+    margin-bottom:20px;
 }

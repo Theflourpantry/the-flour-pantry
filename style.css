@@ -84,14 +84,8 @@ nav a{
 
 .products{
     padding:60px 8%;
+    background:#FCF8F2;
 }
-
-.products h2{
-    text-align:center;
-    margin-bottom:40px;
-    font-size:34px;
-}
-
 .product-grid{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(250px,1fr));

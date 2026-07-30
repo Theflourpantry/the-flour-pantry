@@ -129,7 +129,8 @@ nav a:hover::after{
 
 .hero a:hover{
     background:#8B5E34;
-    transform:translateY(-3px);
+    transform:translateY(-5px) scale(1.03);
+    box-shadow:0 12px 25px rgba(107,74,43,.3);
 }
 /* =========================
    FEATURES
@@ -211,7 +212,7 @@ nav a:hover::after{
     padding:30px;
     text-align:center;
     box-shadow:0 10px 25px rgba(0,0,0,.08);
-    transition:.3s;
+   transition:.4s ease;
     display:flex;
     flex-direction:column;
 }
@@ -262,6 +263,8 @@ nav a:hover::after{
 
 .card a:hover{
     background:#8B5E34;
+    transform:translateY(-3px);
+    box-shadow:0 10px 20px rgba(107,74,43,.3);
 }
 /* =========================
    ABOUT
@@ -335,7 +338,7 @@ nav a:hover::after{
     padding:35px;
     border-radius:20px;
     box-shadow:0 10px 25px rgba(0,0,0,.08);
-    transition:.3s;
+   transition:.4s ease;
 }
 
 .why-card:hover{
@@ -385,7 +388,7 @@ nav a:hover::after{
     padding:35px;
     border-radius:20px;
     box-shadow:0 10px 25px rgba(0,0,0,.08);
-    transition:.3s;
+   transition:.4s ease;
 }
 
 .testimonial-card:hover{
@@ -437,7 +440,7 @@ nav a:hover::after{
     padding:35px;
     border-radius:20px;
     box-shadow:0 10px 25px rgba(0,0,0,.08);
-    transition:.3s;
+   transition:.4s ease;
 }
 
 .contact-card:hover{
@@ -617,4 +620,27 @@ nav a{
 .whatsapp-float:hover{
     transform:scale(1.1);
     background:#1ebe5d;
+}
+/* =========================
+   ANIMATIONS
+========================= */
+
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(40px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+.hero-text,
+.feature-box,
+.card,
+.why-card,
+.testimonial-card,
+.contact-card{
+    animation:fadeUp .8s ease forwards;
 }

@@ -4,11 +4,19 @@
 ========================= */
 
 /* RESET */
-
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
+}
+
+:root{
+    --brown:#5A3B20;
+    --dark-brown:#6B4A2B;
+    --cream:#FCF8F2;
+    --light-cream:#F8F4E8;
+    --gold:#C89B3C;
+    --terracotta:#B86F4B;
 }
 
 html{

@@ -71,20 +71,27 @@ header{
     font-size:15px;
 }
 
-nav{
-    display:flex;
-    gap:35px;
+nav a{
+    color:#5A3B20;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+    position:relative;
+}
+
+nav a:hover{
+    color:var(--gold);
 }
 
 nav a::after{
     content:"";
     position:absolute;
     left:0;
-    bottom:-6px;
+    bottom:-7px;
     width:0;
     height:2px;
-    background:#6B4A2B;
-    transition:.3s;
+    background:var(--gold);
+    transition:.3s ease;
 }
 
 nav a:hover::after{

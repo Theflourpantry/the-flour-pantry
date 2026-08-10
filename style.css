@@ -122,9 +122,17 @@ nav a:hover::after{
     font-size:58px;
     color:#5A3B20;
     line-height:1.2;
-    margin-bottom:20px;
+    margin-bottom:35px;
 }
-
+.hero h2::after{
+    content:"";
+    display:block;
+    width:80px;
+    height:4px;
+    background:var(--gold);
+    margin-top:35px;
+    border-radius:10px;
+}
 .hero p{
     font-size:22px;
     color:#8A6A44;

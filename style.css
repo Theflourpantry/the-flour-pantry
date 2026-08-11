@@ -317,9 +317,8 @@ nav a:hover::after{
 
 .about{
     padding:90px 8%;
-    background:#F8F4E8;
+    background:#F6EBDD;
 }
-
 .about-content{
     max-width:900px;
     margin:auto;
@@ -329,10 +328,19 @@ nav a:hover::after{
 .about h2{
     font-family:"Times New Roman", serif;
     font-size:42px;
-    color:#5A3B20;
-    margin-bottom:25px;
+    color:var(--brown);
+    margin-bottom:35px;
+    position:relative;
 }
-
+.about h2::after{
+    content:"";
+    display:block;
+    width:60px;
+    height:3px;
+    background:var(--terracotta);
+    margin:15px auto 0;
+    border-radius:10px;
+}
 .about p{
     font-size:18px;
     color:#666;

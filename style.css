@@ -283,11 +283,20 @@ nav a:hover::after{
     transform:scale(1.1);
 }
 .card h3{
-    color:#5A3B20;
+    color:var(--brown);
     font-size:24px;
     margin-bottom:15px;
+    position:relative;
 }
-
+.card h3::after{
+    content:"";
+    display:block;
+    width:35px;
+    height:2px;
+    background:var(--gold);
+    margin:10px auto 0;
+    border-radius:10px;
+}
 .card p{
     color:#666;
     line-height:1.7;

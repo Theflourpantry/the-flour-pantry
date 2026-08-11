@@ -142,20 +142,23 @@ nav a:hover::after{
 .hero a{
     display:inline-block;
     padding:16px 45px;
-    background:#6B4A2B;
+    background:var(--terracotta);
     color:#fff;
     text-decoration:none;
     border-radius:50px;
     font-weight:bold;
-    transition:.3s;
+    letter-spacing:1px;
+    transition:.3s ease;
+    box-shadow:0 8px 18px rgba(184,111,75,.25);
 }
 
 .hero a:hover{
-    background:#8B5E34;
-    transform:translateY(-5px) scale(1.03);
-    box-shadow:0 12px 25px rgba(107,74,43,.3);
+    background:var(--gold);
+    color:#fff;
+    transform:translateY(-4px);
+    box-shadow:0 12px 25px rgba(200,155,60,.3);
 }
-/* =========================
+* =========================
    FEATURES
 ========================= */
 

@@ -184,16 +184,18 @@ nav a:hover::after{
     align-items:center;
     justify-content:center;
     border-radius:50%;
-    background:#EADCC7;
-    color:#5A3B20;
+    background:#F2E2B8;
+    color:var(--brown);
     font-size:34px;
-    transition:.3s;
+    transition:.4s ease;
+    box-shadow:0 6px 15px rgba(200,155,60,.15);
 }
 
 .feature-box:hover i{
-    background:#5A3B20;
+    background:var(--gold);
     color:#fff;
-    transform:translateY(-5px);
+    transform:translateY(-7px) scale(1.05);
+    box-shadow:0 10px 20px rgba(200,155,60,.25);
 }
 
 .feature-box p{

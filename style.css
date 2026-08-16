@@ -535,6 +535,8 @@ nav a:hover::after{
     border:1px solid #EADCC7;
     box-shadow:0 10px 25px rgba(90,59,32,.07);
     transition:.4s ease;
+   text-decoration:none;
+color:inherit;
 }
 
 .contact-card:hover{

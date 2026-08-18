@@ -55,7 +55,6 @@ color:inherit;
 .logo img{
     width:85px;
     height:85px;
-    border-radius:50%;
 }
 
 .logo-text h1{
@@ -612,12 +611,11 @@ header{
 }
 
 nav{
-    margin-top:20px;
+    margin-top:25px;
     flex-wrap:wrap;
     justify-content:center;
-    gap:18px;
+    gap:25px;
 }
-
 nav a{
     font-size:16px;
 }

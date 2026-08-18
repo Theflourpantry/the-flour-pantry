@@ -53,8 +53,8 @@ color:inherit;
 }
 
 .logo img{
-    width:85px;
-    height:85px;
+    width:150px;
+    height:150px;
 }
 
 .logo-text h1{
@@ -610,16 +610,15 @@ header{
 }
 
 nav{
-    margin-top:25px;
+    margin-top:28px;
     flex-wrap:wrap;
     justify-content:center;
-    gap:30px;
+    gap:35px;
 }
-nav a{
-    font-size:19px;
+   nav a{
+    font-size:25px;
     font-weight:600;
 }
-
 .hero{
     padding:100px 8%;
     background:linear-gradient(rgba(252,248,242,.9),rgba(252,248,242,.9)),

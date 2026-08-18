@@ -597,10 +597,9 @@ header{
 }
 
 .logo img{
-    width:70px;
-    height:70px;
+    width:100px;
+    height:100px;
 }
-
 .logo-text h1{
     font-size:30px;
 }
@@ -614,10 +613,11 @@ nav{
     margin-top:25px;
     flex-wrap:wrap;
     justify-content:center;
-    gap:25px;
+    gap:30px;
 }
 nav a{
-    font-size:17px;
+    font-size:19px;
+    font-weight:600;
 }
 
 .hero{

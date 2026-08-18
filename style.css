@@ -613,7 +613,7 @@ nav{
     margin-top:28px;
     flex-wrap:wrap;
     justify-content:center;
-    gap:35px;
+    gap:50px;
 }
    nav a{
     font-size:25px;

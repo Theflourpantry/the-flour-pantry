@@ -759,3 +759,72 @@ nav{
 .contact-card{
     animation:fadeUp .8s ease forwards;
 }
+/* =========================
+   CART
+========================= */
+
+.cart-box{
+    position:fixed;
+    top:0;
+    right:-420px;
+    width:400px;
+    max-width:90%;
+    height:100vh;
+    background:#FFFDF9;
+    z-index:10000;
+    padding:30px;
+    box-shadow:-8px 0 25px rgba(0,0,0,.15);
+    transition:.4s ease;
+    overflow-y:auto;
+}
+
+.cart-box.active{
+    right:0;
+}
+
+.cart-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:30px;
+}
+
+.cart-header h2{
+    font-family:"Times New Roman", serif;
+    color:var(--brown);
+    font-size:30px;
+}
+
+#close-cart{
+    border:none;
+    background:none;
+    font-size:25px;
+    color:var(--brown);
+    cursor:pointer;
+}
+
+#cart-items{
+    color:#666;
+    margin-bottom:30px;
+}
+
+.cart-total{
+    border-top:1px solid #EADCC7;
+    padding-top:20px;
+    margin-top:20px;
+    color:var(--brown);
+    font-size:20px;
+}
+
+#checkout-button{
+    width:100%;
+    margin-top:25px;
+    padding:15px;
+    border:none;
+    border-radius:40px;
+    background:var(--terracotta);
+    color:#fff;
+    font-weight:bold;
+    font-size:16px;
+    cursor:pointer;
+}

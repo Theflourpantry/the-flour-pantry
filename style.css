@@ -828,3 +828,30 @@ nav{
     font-size:16px;
     cursor:pointer;
 }
+#cart-button{
+    padding:12px 22px;
+    background:var(--terracotta);
+    color:#fff;
+    border:none;
+    border-radius:40px;
+    font-weight:bold;
+    font-size:16px;
+    cursor:pointer;
+    transition:.3s ease;
+    white-space:nowrap;
+}
+
+#cart-button:hover{
+    background:var(--gold);
+    transform:translateY(-2px);
+}
+
+@media (max-width:768px){
+
+    #cart-button{
+        margin-top:25px;
+        font-size:16px;
+        padding:12px 25px;
+    }
+
+}

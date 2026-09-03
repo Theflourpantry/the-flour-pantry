@@ -321,6 +321,24 @@ nav a:hover::after{
     transform:translateY(-3px);
     box-shadow:0 10px 20px rgba(107,74,43,.3);
 }
+.card .add-to-cart{
+    display:inline-block;
+    padding:14px 30px;
+    background:#6B4A2B;
+    color:#fff;
+    border:none;
+    border-radius:40px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+    font-size:16px;
+}
+
+.card .add-to-cart:hover{
+    background:#8B5E34;
+    transform:translateY(-3px);
+    box-shadow:0 10px 20px rgba(107,74,43,.3);
+}
 /* =========================
    ABOUT
 ========================= */

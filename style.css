@@ -315,7 +315,12 @@ nav a:hover::after{
     font-weight:bold;
     transition:.3s;
 }
-
+.card strong{
+    display:block;
+    color:var(--terracotta);
+    font-size:20px;
+    margin-bottom:20px;
+}
 .card a:hover{
     background:#8B5E34;
     transform:translateY(-3px);

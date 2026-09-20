@@ -254,6 +254,7 @@ nav a:hover::after{
     transition:.4s ease;
     display:flex;
     flex-direction:column;
+    min-height:430px;
 }
 
 .card:hover{

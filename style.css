@@ -318,9 +318,10 @@ nav a:hover::after{
 }
 .card strong{
     display:block;
-    color:var(--terracotta);
-    font-size:20px;
+    color:var(--brown);
+    font-size:21px;
     margin-bottom:20px;
+    font-weight:700;
 }
 .card a:hover{
     background:#8B5E34;

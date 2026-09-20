@@ -752,6 +752,12 @@ nav{
     transform:scale(1.1);
     background:#1ebe5d;
 }
+
+.card a{
+    width:100%;
+    max-width:260px;
+    margin:0 auto;
+}
 /* =========================
    ANIMATIONS
 ========================= */

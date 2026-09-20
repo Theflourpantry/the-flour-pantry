@@ -670,10 +670,15 @@ nav{
 }
 
 .features{
-    gap:25px;
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:30px 15px;
     padding:50px 20px;
 }
 
+.feature-box{
+    width:auto;
+}
 .feature-box i{
     transition:.4s;
 }

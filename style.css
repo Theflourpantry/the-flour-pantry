@@ -168,19 +168,18 @@ nav a:hover::after{
     grid-template-columns:repeat(4, 1fr);
     width:100%;
     box-sizing:border-box;
-    gap:30px;
-    padding:60px 5%;
+    gap:25px;
+    padding:60px 2%;
     text-align:center;
 }
 
 .feature-box,
 .feature-box1{
     width:100%;
-    max-width:none;
+    min-height:180px;
     box-sizing:border-box;
     text-align:center;
 }
-
 .feature-box:hover i{
     background:var(--gold);
     color:#fff;

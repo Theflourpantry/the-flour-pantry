@@ -164,17 +164,22 @@ nav a:hover::after{
 ========================= */
 
 .features{
-    display:grid;
-    grid-template-columns:repeat(5, 1fr);
-    width:100%;
+    display:flex !important;
+    flex-direction:row !important;
+    flex-wrap:nowrap !important;
+    justify-content:space-between !important;
+    align-items:stretch !important;
+    width:100% !important;
     box-sizing:border-box;
-    gap:25px;
+    gap:20px;
     padding:60px 3%;
     text-align:center;
 }
 
 .feature-box{
-    width:100%;
+    flex:1 1 0 !important;
+    width:auto !important;
+    max-width:none !important;
     min-height:180px;
     box-sizing:border-box;
     text-align:center;

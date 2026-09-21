@@ -317,10 +317,13 @@ nav a:hover::after{
     transition:.3s;
 }
 .card strong{
-    display:block;
+    display:inline-block;
     color:var(--brown);
-    font-size:21px;
-    margin-bottom:20px;
+    background:#F8F0E2;
+    padding:6px 16px;
+    border-radius:20px;
+    font-size:18px;
+    margin:0 auto 20px;
     font-weight:700;
 }
 .card a:hover{

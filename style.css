@@ -679,18 +679,18 @@ nav{
 
 .features{
     display:grid;
-    grid-template-columns:repeat(2, 1fr);
-    gap:30px 15px;
-    padding:50px 20px;
+    grid-template-columns:repeat(4, 1fr);
+    gap:30px;
+    padding:60px 8%;
+    text-align:center;
+    justify-items:center;
 }
 
 .feature-box{
-    width:auto;
+    width:100%;
+    max-width:240px;
+    text-align:center;
 }
-.feature-box i{
-    transition:.4s;
-}
-
 .feature-box:hover i{
     transform:rotate(12deg) scale(1.1);
 }

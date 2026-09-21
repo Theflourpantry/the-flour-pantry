@@ -164,22 +164,24 @@ nav a:hover::after{
 ========================= */
 
 .features{
-    display:grid;
-    grid-template-columns:repeat(4, 1fr);
-    width:100%;
+    display:grid !important;
+    grid-template-columns:repeat(4, minmax(0, 1fr)) !important;
+    width:100% !important;
     box-sizing:border-box;
-    gap:25px;
-    padding:60px 2%;
+    gap:30px;
+    padding:60px 3%;
     text-align:center;
 }
 
 .feature-box,
 .feature-box1{
-    width:100%;
+    width:100% !important;
+    max-width:none !important;
     min-height:180px;
     box-sizing:border-box;
     text-align:center;
 }
+
 .feature-box:hover i{
     background:var(--gold);
     color:#fff;
